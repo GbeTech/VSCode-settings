@@ -1,0 +1,12 @@
+{
+	"component": {
+		"prefix": "comp",
+		"body": [
+			"@Component({\r",
+			"  selector: 'hero-detail',\r",
+			"  templateUrl: './hero-detail.component.html'\r",
+			"})"
+		],
+		"description": "Creates a Component class with @Component decorator"
+	}
+}

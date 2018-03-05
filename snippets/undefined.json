@@ -1,0 +1,11 @@
+{
+	"undefined": {
+		"body": [
+			"@Component({\r",
+			"  selector: 'hero-detail',\r",
+			"  templateUrl: './hero-detail.component.html'\r",
+			"})\r",
+			"export class HeroDetailComponent {"
+		]
+	}
+}

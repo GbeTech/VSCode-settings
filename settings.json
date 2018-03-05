@@ -1,0 +1,49 @@
+{
+    "editor.formatOnSave": true,
+    "tslint.autoFixOnSave": false,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "files.insertFinalNewline": true,
+    "explorer.sortOrder": "modified",
+    "window.zoomLevel": 1,
+    "window.title": "${activeEditorShort}",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.scrollBeyondLastLine": false,
+    "editor.minimap.renderCharacters": false,
+    "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "all",
+    "editor.roundedSelection": false,
+    "html.format.wrapLineLength": 30,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "tslint.rulesDirectory": "node_modules/codelyzer",
+    "tslint.validateWithDefaultConfig": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": {
+            "when": "$(basename)"
+        }
+    },
+    "editor.snippetSuggestions": "top",
+    "jshint.exclude": {
+        "**/.ts": true
+    },
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "inherit",
+    "window.closeWhenEmpty": true,
+    "explorer.confirmDelete": false,
+    "editor.cursorStyle": "line",
+    "editor.fontSize": 14,
+    "git.ignoreMissingGitWarning": true
+}
