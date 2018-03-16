@@ -267,5 +267,33 @@
         "key": "ctrl+insert",
         "command": "-editor.action.clipboardCopyAction",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "shift+enter",
+        "command": "editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-editor.action.insertLineBefore",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.editor.previousChange",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+f5",
+        "command": "-workbench.action.editor.previousChange",
+        "when": "editorTextFocus"
     }
 ]
