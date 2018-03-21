@@ -295,5 +295,23 @@
         "key": "shift+alt+f5",
         "command": "-workbench.action.editor.previousChange",
         "when": "editorTextFocus"
-    }
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+shift+[",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "ctrl+shift+alt+]",
+        "command": "workbench.action.navigateRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+[",
+        "command": "workbench.action.navigateLeft",
+        "when": "editorTextFocus"
+    },
 ]
