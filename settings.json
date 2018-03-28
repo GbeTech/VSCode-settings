@@ -5,7 +5,7 @@
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
     "files.insertFinalNewline": true,
     "explorer.sortOrder": "modified",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 3,
     "window.title": "${activeEditorShort}",
     "workbench.iconTheme": "material-icon-theme",
     "editor.scrollBeyondLastLine": false,
