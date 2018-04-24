@@ -5,7 +5,7 @@
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
     "files.insertFinalNewline": true,
     "explorer.sortOrder": "modified",
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 2,
     "window.title": "${activeEditorShort}",
     "workbench.iconTheme": "material-icon-theme",
     "editor.scrollBeyondLastLine": false,
@@ -45,5 +45,7 @@
     "explorer.confirmDelete": false,
     "editor.cursorStyle": "line",
     "editor.fontSize": 14,
-    "git.ignoreMissingGitWarning": true
+    "git.ignoreMissingGitWarning": true,
+    "csharp.format.enable": false,
+    "csharp.suppressDotnetInstallWarning": true
 }

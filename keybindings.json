@@ -314,4 +314,18 @@
         "command": "workbench.action.navigateLeft",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+r ctrl+f",
+        "command": "workbench.action.terminal.rename"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+f3",
+        "command": "-editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
 ]
