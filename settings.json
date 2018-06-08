@@ -7,18 +7,12 @@
     "explorer.sortOrder": "modified",
     "window.zoomLevel": 3,
     "window.title": "${activeEditorShort}",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.scrollBeyondLastLine": false,
     "editor.minimap.renderCharacters": false,
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "all",
     "editor.roundedSelection": false,
     "html.format.wrapLineLength": 30,
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": false,
-        "strings": true
-    },
     "tslint.rulesDirectory": "node_modules/codelyzer",
     "tslint.validateWithDefaultConfig": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -50,4 +44,5 @@
     "csharp.suppressDotnetInstallWarning": true,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "editor.mouseWheelZoom": true,
+    "files.autoSave": "onFocusChange"
 }
