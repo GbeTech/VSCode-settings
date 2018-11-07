@@ -292,11 +292,11 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+[",
+        "key": "ctrl+shift+]",
         "command": "workbench.action.increaseViewSize"
     },
     {
-        "key": "ctrl+shift+]",
+        "key": "ctrl+shift+[",
         "command": "workbench.action.decreaseViewSize"
     },
     {
