@@ -96,11 +96,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+w",
-        "command": "editor.action.smartSelect.grow",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "shift+alt+right",
         "command": "-editor.action.smartSelect.grow",
         "when": "editorTextFocus"
@@ -229,11 +224,6 @@
         "key": "shift+alt+down",
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+w",
-        "command": "editor.action.smartSelect.shrink",
-        "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+left",
@@ -424,10 +414,6 @@
         "command": "-workbench.action.showCommands"
     },
     {
-        "key": "ctrl+alt+v",
-        "command": "workbench.action.splitEditorRight"
-    },
-    {
         "key": "ctrl+]",
         "command": "-editor.action.indentLines",
         "when": "editorTextFocus && !editorReadonly"
@@ -441,5 +427,59 @@
         "key": "ctrl+shift+\\",
         "command": "-editor.action.jumpToBracket",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-debug.openBreakpointToSide",
+        "when": "breakpointsFocused"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-editor.action.selectAllMatches",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+f12",
+        "command": "-editor.action.peekImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+shift+f12",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "-workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "expand_region"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.focus"
     },
 ]

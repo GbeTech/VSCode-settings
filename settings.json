@@ -1,11 +1,11 @@
 {
+    // https://code.visualstudio.com/docs/getstarted/settings
     "editor.formatOnSave": true,
-    "tslint.autoFixOnSave": false,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
     "files.insertFinalNewline": true,
     "explorer.sortOrder": "modified",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0,
     "window.title": "${activeEditorShort}",
     "editor.scrollBeyondLastLine": false,
     "editor.minimap.renderCharacters": false,
@@ -13,10 +13,10 @@
     "window.restoreWindows": "all",
     "editor.roundedSelection": false,
     "html.format.wrapLineLength": 30,
-    "tslint.validateWithDefaultConfig": true,
     "workbench.startupEditor": "newUntitledFile",
     "files.exclude": {
         "**/.git": true,
+        "**/.idea": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
@@ -29,9 +29,6 @@
         }
     },
     "editor.snippetSuggestions": "top",
-    "jshint.exclude": {
-        "**/.ts": true
-    },
     "window.restoreFullscreen": true,
     "window.newWindowDimensions": "inherit",
     "window.closeWhenEmpty": true,
@@ -49,5 +46,19 @@
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": true,
     "editor.minimap.enabled": true,
-    "window.menuBarVisibility": "default"
+    "window.menuBarVisibility": "default",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "npm.enableScriptExplorer": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.revealIfOpen": true,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableBell": true,
+    "editor.dragAndDrop": false,
+    "editor.find.autoFindInSelection": true,
+    "debug.inlineValues": true,
+    "editor.formatOnType": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.insertSpaces": false
 }
