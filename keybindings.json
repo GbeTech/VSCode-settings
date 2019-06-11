@@ -462,10 +462,6 @@
         "command": "-workbench.action.toggleZenMode"
     },
     {
-        "key": "ctrl+alt+v",
-        "command": "workbench.action.moveActiveEditorGroupRight"
-    },
-    {
         "key": "ctrl+k right",
         "command": "-workbench.action.moveActiveEditorGroupRight"
     },
@@ -475,11 +471,37 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+shift+alt+e",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
         "key": "ctrl+w",
         "command": "expand_region"
     },
     {
         "key": "alt+t",
-        "command": "workbench.action.terminal.focus"
+        "command": "editor.action.peekTypeDefinition"
     },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inQuickOpen && inViewsPicker"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.openDocumentationUrl"
+    }
 ]

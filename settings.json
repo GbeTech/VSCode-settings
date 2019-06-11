@@ -1,6 +1,4 @@
 {
-    // https://code.visualstudio.com/docs/getstarted/settings
-    "editor.formatOnSave": true,
     "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
     "files.insertFinalNewline": true,
@@ -15,18 +13,12 @@
     "html.format.wrapLineLength": 30,
     "workbench.startupEditor": "newUntitledFile",
     "files.exclude": {
+        "**/.DS_Store": true,
         "**/.git": true,
+        "**/.hg": true,
         "**/.idea": true,
         "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/*.js": {
-            "when": "$(basename).ts"
-        },
-        "**/*.js.map": {
-            "when": "$(basename)"
-        }
+        "**/CVS": true
     },
     "editor.snippetSuggestions": "top",
     "window.restoreFullscreen": true,
@@ -43,12 +35,12 @@
     "files.autoSave": "onFocusChange",
     "python.linting.pylintEnabled": false,
     "editor.codeLens": true,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "editor.minimap.enabled": true,
     "window.menuBarVisibility": "default",
     "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false,
+    "editor.renderControlCharacters": true,
     "npm.enableScriptExplorer": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.revealIfOpen": true,
@@ -59,6 +51,19 @@
     "editor.find.autoFindInSelection": true,
     "debug.inlineValues": true,
     "editor.formatOnType": true,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.insertSpaces": false
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.insertSpaces": false,
+    "editor.tabCompletion": "on",
+    "[markdown]": {
+        "editor.defaultFormatter": "fcrespo82.markdown-table-formatter"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
 }
