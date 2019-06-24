@@ -503,5 +503,15 @@
     {
         "key": "ctrl+q",
         "command": "workbench.action.openDocumentationUrl"
+    },
+    {
+        "key": "ctrl+insert",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+delete",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]

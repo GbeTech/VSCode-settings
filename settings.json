@@ -65,5 +65,6 @@
     },
     "[json]": {
         "editor.defaultFormatter": "HookyQR.beautify"
-    }
+    },
+    "files.eol": "\n"
 }
