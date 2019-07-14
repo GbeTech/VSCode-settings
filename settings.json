@@ -1,70 +1,111 @@
 {
-    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
-    "files.insertFinalNewline": true,
-    "explorer.sortOrder": "modified",
-    "window.zoomLevel": 0,
-    "window.title": "${activeEditorShort}",
-    "editor.scrollBeyondLastLine": false,
-    "editor.minimap.renderCharacters": false,
-    "window.openFoldersInNewWindow": "on",
-    "window.restoreWindows": "all",
-    "editor.roundedSelection": false,
-    "html.format.wrapLineLength": 30,
-    "workbench.startupEditor": "newUntitledFile",
-    "files.exclude": {
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/.hg": true,
-        "**/.idea": true,
-        "**/.svn": true,
-        "**/CVS": true
-    },
-    "editor.snippetSuggestions": "top",
-    "window.restoreFullscreen": true,
-    "window.newWindowDimensions": "inherit",
-    "window.closeWhenEmpty": true,
-    "explorer.confirmDelete": false,
-    "editor.cursorStyle": "line",
-    "editor.fontSize": 14,
-    "git.ignoreMissingGitWarning": true,
-    "csharp.format.enable": false,
-    "csharp.suppressDotnetInstallWarning": true,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "editor.mouseWheelZoom": true,
-    "files.autoSave": "onFocusChange",
-    "python.linting.pylintEnabled": false,
-    "editor.codeLens": true,
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "editor.minimap.enabled": true,
-    "window.menuBarVisibility": "default",
-    "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": true,
-    "npm.enableScriptExplorer": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.revealIfOpen": true,
-    "extensions.closeExtensionDetailsOnViewChange": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.enableBell": true,
-    "editor.dragAndDrop": false,
-    "editor.find.autoFindInSelection": true,
-    "debug.inlineValues": true,
-    "editor.formatOnType": true,
-    "editor.acceptSuggestionOnEnter": "smart",
-    "editor.insertSpaces": false,
-    "editor.tabCompletion": "on",
-    "[markdown]": {
-        "editor.defaultFormatter": "fcrespo82.markdown-table-formatter"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "files.eol": "\n"
+	"mochaExplorer.timeout": 30000,
+	"todohighlight.isEnable": true,
+	"todohighlight.isCaseSensitive": true,
+	"todohighlight.keywords": [
+		{
+			"text": "TODO:",
+			"color": "#ff649f",
+			"backgroundColor": "rgba(0,0,0,0)",
+			"isWholeLine": false,
+			//other styling properties goes here ... 
+		}
+	],
+	"todohighlight.toggleURI": false,
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+	"explorer.sortOrder": "modified",
+	"window.zoomLevel": 0,
+	"liveSassCompile.settings.autoprefix": [
+		"last 10 versions"
+	],
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".css"
+		}
+	],
+	"window.title": "${rootName}${separator}${activeEditorShort}${separator}${appName}",
+	"editor.scrollBeyondLastLine": false,
+	"editor.minimap.renderCharacters": false,
+	"window.openFoldersInNewWindow": "on",
+	"window.restoreWindows": "all",
+	"editor.roundedSelection": false,
+	"html.format.wrapLineLength": 30,
+	"workbench.startupEditor": "newUntitledFile",
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.hg": true,
+		"**/.idea": true,
+		"**/.svn": true,
+		"**/CVS": true
+	},
+	"editor.snippetSuggestions": "top",
+	"window.restoreFullscreen": true,
+	"window.newWindowDimensions": "inherit",
+	"window.closeWhenEmpty": true,
+	"explorer.confirmDelete": false,
+	"editor.cursorStyle": "line",
+	"editor.fontSize": 14,
+	"git.ignoreMissingGitWarning": true,
+	"csharp.format.enable": false,
+	"csharp.suppressDotnetInstallWarning": true,
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"editor.mouseWheelZoom": true,
+	"files.autoSave": "onFocusChange",
+	"python.linting.pylintEnabled": false,
+	"editor.codeLens": true,
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	"editor.minimap.enabled": true,
+	"window.menuBarVisibility": "default",
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": true,
+	"npm.enableScriptExplorer": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.revealIfOpen": true,
+	"extensions.closeExtensionDetailsOnViewChange": true,
+	"terminal.integrated.cursorStyle": "line",
+	"vscode-json-editor.theme": "dark",
+	"terminal.integrated.enableBell": true,
+	"editor.dragAndDrop": false,
+	"editor.find.autoFindInSelection": true,
+	"debug.inlineValues": true,
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.insertSpaces": false,
+	"editor.tabCompletion": "on",
+	"[markdown]": {
+		"editor.defaultFormatter": "fcrespo82.markdown-table-formatter"
+	},
+	"files.eol": "\n",
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	// "[typescript]": {
+	// 	"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	// },
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"php",
+		"blade",
+		"ejs",
+		"jinja",
+		"javascript",
+		"javascriptreact",
+		"plaintext",
+		"markdown",
+		"vue",
+		"liquid",
+		"erb",
+		"lang-cfml",
+		"cfml",
+		"HTML (Eex)"
+	]
+	
 }
