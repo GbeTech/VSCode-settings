@@ -204,10 +204,6 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+f4",
-		"command": "workbench.debug.viewlet.action.disableAllBreakpoints"
-	},
-	{
 		"key": "shift+alt+s",
 		"command": "workbench.action.openGlobalSettings"
 	},
@@ -702,5 +698,28 @@
 	{
 		"key": "ctrl+shift+alt+c",
 		"command": "editor.foldAll"
+	},
+	{
+		"key": "f6",
+		"command": "-workbench.action.debug.pause",
+		"when": "debugState == 'running'"
+	},
+	{
+		"key": "f6",
+		"command": "workbench.action.debug.continue",
+		"when": "inDebugMode"
+	},
+	{
+		"key": "f5",
+		"command": "-workbench.action.debug.continue",
+		"when": "inDebugMode"
+	},
+	{
+		"key": "ctrl+f6",
+		"command": "workbench.action.debug.reverseContinue"
+	},
+	{
+		"key": "shift+f4",
+		"command": "editor.debug.action.conditionalBreakpoint"
 	}
 ]

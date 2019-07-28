@@ -106,6 +106,8 @@
 		"lang-cfml",
 		"cfml",
 		"HTML (Eex)"
-	]
+	],
+	"python.jediEnabled": false,
+	"editor.mouseWheelScrollSensitivity": 2
 	
 }
