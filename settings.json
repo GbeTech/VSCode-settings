@@ -108,6 +108,10 @@
 		"HTML (Eex)"
 	],
 	"python.jediEnabled": false,
-	"editor.mouseWheelScrollSensitivity": 2
+	"editor.mouseWheelScrollSensitivity": 2,
+	"sync.removeExtensions": true,
+	"sync.gist": "4e35164ad90d6519c6648c7a49158617",
+	"sync.autoUpload": true,
+	"files.autoSaveDelay": 1001
 	
 }
